@@ -9,6 +9,7 @@
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/",
     "test": "jest",
+    "test:update": "jest --updateSnapshot",
     "test:watch": "jest --watch"
   },
   "repository": {
@@ -60,6 +61,7 @@
     "history": "^4.10.1",
     "jest": "^26.6.3",
     "prettier": "^1.19.1",
+    "react-test-renderer": "^16.14.0",
     "webpack-dev-server": "^3.9.0"
   },
   "bugs": {
